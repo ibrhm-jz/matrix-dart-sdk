@@ -204,6 +204,8 @@ class Client extends MatrixApi {
       EventTypes.spaceChild,
       EventTypes.spaceParent,
       EventTypes.RoomCreate,
+      EventTypes.CallHangup,
+      EventTypes.CallInvite
     ]);
     roomPreviewLastEvents.addAll([
       EventTypes.Message,
